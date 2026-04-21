@@ -1,16 +1,10 @@
 
-        // Movie Data for dynamic rows (interface mockup)
-        // Each movie object: title, rating, imageId (for placeholder style), year (optional)
-        // We'll use attractive placeholders with text and gradient-friendly design via placeholder images.
-        // Using "https://placehold.co/300x450" with custom text and colors matching streaming vibe.
-        // To make it visually consistent and modern, we generate placeholder URLs with dark background, bold text.
-        
+       
         const generatePoster = (movie) => {
-            // إذا كان هناك صورة محلية، استخدمها؛ وإلا استخدم placeholder
+          
             if (movie.image) {
                 return `images/${movie.image}`;
             }
-            // Fallback إلى placeholder إذا لم تكن هناك صورة محلية
             let shortTitle = movie.title.length > 18 ? movie.title.substring(0, 15)+'...' : movie.title;
             return `https://placehold.co/300x450/111827/e50914?text=${encodeURIComponent(shortTitle)}&font=montserrat`;
         };
