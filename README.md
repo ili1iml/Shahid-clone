@@ -61,7 +61,7 @@ No installation or dependencies required.
 
 ```bash
 # Clone the repository
-git clone https://github.com/ili1iml/Shahid-clone.git
+git clone (https://github.com/ili1iml/Shahid-clone.git).
 
 # Navigate into the folder
 cd shahid-clone
@@ -95,8 +95,8 @@ open index.html
 
 ## 👩‍💻 Author
 
-**Your Name**  
-*Front-end developer in training — building real-world UI clones to sharpen my skills*
+**Moudi Alotaibi**  
+*Front-end developer in training*
 
 ---
 
